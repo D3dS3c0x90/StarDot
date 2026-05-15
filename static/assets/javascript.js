@@ -7,12 +7,12 @@
       ];
 
     const mySuggestions = [
-      { numbers: [2, 5, 7, 9], result: 'win' },
+      { numbers: [2, 5, 7, 9], result: 'wait' },
     ];
 
     const friendSuggestions = {
       'قلب حبوبي - زينب': [
-        { numbers: [1, 4, 6, 8], result: 'win' },
+        { numbers: [1, 4, 6, 8], result: 'wait' },
       ],
     };
 

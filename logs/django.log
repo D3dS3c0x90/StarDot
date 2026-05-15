@@ -725,3 +725,392 @@ ERROR 2026-05-15 04:47:32,921 basehttp 21376 6492 "GET /create/play HTTP/1.1" 50
 INFO 2026-05-15 04:49:39,508 autoreload 21376 12524 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
 INFO 2026-05-15 04:49:40,685 autoreload 28892 21628 Watching for file changes with StatReloader
 INFO 2026-05-15 04:49:47,091 basehttp 28892 16892 "GET /create/play HTTP/1.1" 200 21
+INFO 2026-05-16 01:15:30,437 autoreload 2260 3112 Watching for file changes with StatReloader
+INFO 2026-05-16 01:17:35,099 autoreload 15472 1396 Watching for file changes with StatReloader
+INFO 2026-05-16 01:17:42,145 basehttp 15472 14612 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-05-16 01:17:42,368 basehttp 15472 14612 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+INFO 2026-05-16 01:17:42,420 basehttp 15472 14612 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2026-05-16 01:17:42,424 basehttp 15472 8972 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2026-05-16 01:17:42,429 basehttp 15472 11192 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2026-05-16 01:17:42,433 basehttp 15472 17412 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2026-05-16 01:17:42,433 basehttp 15472 4280 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2026-05-16 01:17:42,437 basehttp 15472 14132 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2026-05-16 01:17:42,445 basehttp 15472 14132 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+WARNING 2026-05-16 01:17:42,541 basehttp 15472 14132 "GET /favicon.ico HTTP/1.1" 404 2846
+INFO 2026-05-16 01:17:49,307 basehttp 15472 14132 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-05-16 01:17:49,354 basehttp 15472 14132 "GET /admin/ HTTP/1.1" 200 6097
+INFO 2026-05-16 01:17:49,397 basehttp 15472 14132 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2026-05-16 01:17:49,407 basehttp 15472 14132 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2026-05-16 01:17:49,407 basehttp 15472 4280 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2026-05-16 01:18:13,327 autoreload 15472 1396 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\apis.py changed, reloading.
+INFO 2026-05-16 01:18:14,884 autoreload 7804 11780 Watching for file changes with StatReloader
+INFO 2026-05-16 01:18:24,798 autoreload 7804 11780 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\urls.py changed, reloading.
+INFO 2026-05-16 01:18:25,685 autoreload 4880 26308 Watching for file changes with StatReloader
+INFO 2026-05-16 01:18:35,010 basehttp 4880 9164 "GET /play/8/9 HTTP/1.1" 200 5402
+INFO 2026-05-16 01:18:35,057 basehttp 4880 9164 "GET /static/assets/style.css HTTP/1.1" 304 0
+INFO 2026-05-16 01:18:35,059 basehttp 4880 21588 "GET /static/assets/javascript.js HTTP/1.1" 304 0
+WARNING 2026-05-16 01:18:47,426 basehttp 4880 21588 "GET /play/9,8 HTTP/1.1" 404 2979
+INFO 2026-05-16 01:18:50,011 basehttp 4880 21588 "GET /play/9/8 HTTP/1.1" 200 5402
+INFO 2026-05-16 01:22:53,933 basehttp 4880 21588 "GET /play/9/8 HTTP/1.1" 200 9042
+WARNING 2026-05-16 01:24:12,582 basehttp 4880 21588 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2957
+INFO 2026-05-16 01:31:29,041 autoreload 4880 26308 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:31:30,796 autoreload 16636 14096 Watching for file changes with StatReloader
+INFO 2026-05-16 01:31:32,305 autoreload 16636 14096 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:31:33,892 autoreload 8816 13800 Watching for file changes with StatReloader
+INFO 2026-05-16 01:31:35,208 autoreload 8816 13800 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:31:36,391 autoreload 16296 5836 Watching for file changes with StatReloader
+INFO 2026-05-16 01:31:40,040 autoreload 16296 5836 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:31:41,238 autoreload 13700 26608 Watching for file changes with StatReloader
+INFO 2026-05-16 01:31:48,048 autoreload 13700 26608 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:31:49,066 autoreload 1556 9124 Watching for file changes with StatReloader
+INFO 2026-05-16 01:31:52,793 autoreload 1556 9124 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:31:54,028 autoreload 17624 11720 Watching for file changes with StatReloader
+INFO 2026-05-16 01:31:55,794 autoreload 17624 11720 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:31:57,256 autoreload 11668 18440 Watching for file changes with StatReloader
+INFO 2026-05-16 01:32:10,349 autoreload 11668 18440 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:32:11,857 autoreload 9732 9628 Watching for file changes with StatReloader
+INFO 2026-05-16 01:32:13,543 autoreload 9732 9628 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:32:14,555 autoreload 27028 16648 Watching for file changes with StatReloader
+INFO 2026-05-16 01:42:14,962 basehttp 27028 15424 "GET /play/9/8 HTTP/1.1" 200 10283
+WARNING 2026-05-16 01:42:15,031 basehttp 27028 6300 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2957
+INFO 2026-05-16 01:42:15,138 basehttp 27028 15424 "GET /static/assets/style.css HTTP/1.1" 200 12286
+INFO 2026-05-16 01:42:15,182 basehttp 27028 19816 "GET /static/assets/javascript.js HTTP/1.1" 200 7392
+ERROR 2026-05-16 01:42:21,433 log 27028 19816 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 13, in create_play
+    data = json.loads(request.body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2026-05-16 01:42:21,435 basehttp 27028 19816 "GET /create/play?user_id=9&my_number=25 HTTP/1.1" 500 80712
+INFO 2026-05-16 01:42:58,094 basehttp 27028 19816 "GET /play/9/8 HTTP/1.1" 200 10319
+WARNING 2026-05-16 01:42:58,139 basehttp 27028 19816 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2957
+ERROR 2026-05-16 01:43:01,830 log 27028 19816 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 13, in create_play
+    data = json.loads(request.body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2026-05-16 01:43:01,831 basehttp 27028 19816 "GET /create/play?user_id=9&my_number=13 HTTP/1.1" 500 80712
+INFO 2026-05-16 01:43:10,388 basehttp 27028 19816 "GET /play/9/8 HTTP/1.1" 200 10323
+WARNING 2026-05-16 01:43:10,456 basehttp 27028 19816 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2957
+ERROR 2026-05-16 01:43:17,379 log 27028 19816 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 13, in create_play
+    data = json.loads(request.body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2026-05-16 01:43:17,380 basehttp 27028 19816 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 500 80712
+INFO 2026-05-16 01:44:17,669 autoreload 27028 16648 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:44:18,431 autoreload 8904 23076 Watching for file changes with StatReloader
+INFO 2026-05-16 01:44:19,984 autoreload 8904 23076 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:44:20,814 autoreload 4844 18052 Watching for file changes with StatReloader
+INFO 2026-05-16 01:44:23,332 autoreload 4844 18052 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:44:23,976 autoreload 14020 17008 Watching for file changes with StatReloader
+ERROR 2026-05-16 01:44:26,335 log 14020 20112 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 13, in create_play
+    data = json.loads(request.body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2026-05-16 01:44:26,338 basehttp 14020 20112 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 500 80739
+INFO 2026-05-16 01:44:33,140 autoreload 14020 17008 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:44:34,077 autoreload 1304 17736 Watching for file changes with StatReloader
+INFO 2026-05-16 01:44:37,869 autoreload 1304 17736 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:44:38,577 autoreload 20540 11924 Watching for file changes with StatReloader
+ERROR 2026-05-16 01:44:40,627 log 20540 20700 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 12, in create_play
+    data = json.loads(request.body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2026-05-16 01:44:40,629 basehttp 20540 20700 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 500 80715
+INFO 2026-05-16 01:44:50,911 autoreload 20540 11924 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:44:51,959 autoreload 25580 15336 Watching for file changes with StatReloader
+INFO 2026-05-16 01:44:53,395 autoreload 25580 15336 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:44:54,078 autoreload 8228 12456 Watching for file changes with StatReloader
+ERROR 2026-05-16 01:44:58,621 log 8228 26364 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 13, in create_play
+    data = json.loads(request.body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2026-05-16 01:44:58,623 basehttp 8228 26364 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 500 80726
+INFO 2026-05-16 01:45:11,795 autoreload 8228 12456 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:45:12,462 autoreload 10160 16912 Watching for file changes with StatReloader
+INFO 2026-05-16 01:45:18,937 autoreload 10160 16912 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:45:20,085 autoreload 10964 20960 Watching for file changes with StatReloader
+INFO 2026-05-16 01:45:21,644 autoreload 10964 20960 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:45:22,322 autoreload 28372 21900 Watching for file changes with StatReloader
+ERROR 2026-05-16 01:45:25,215 log 28372 19336 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 12, in create_play
+    print(request['user_id'])
+          ~~~~~~~^^^^^^^^^^^
+TypeError: 'WSGIRequest' object is not subscriptable
+ERROR 2026-05-16 01:45:25,217 basehttp 28372 19336 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 500 68293
+INFO 2026-05-16 01:45:36,495 autoreload 28372 21900 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:45:37,263 autoreload 25116 15624 Watching for file changes with StatReloader
+ERROR 2026-05-16 01:45:48,950 log 25116 18380 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 12, in create_play
+    print(request.user_id)
+          ^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'user_id'
+ERROR 2026-05-16 01:45:48,951 basehttp 25116 18380 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 500 68355
+INFO 2026-05-16 01:45:57,532 autoreload 25116 15624 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:45:58,409 autoreload 15348 19856 Watching for file changes with StatReloader
+ERROR 2026-05-16 01:46:00,992 log 15348 8360 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 13, in create_play
+    print(request.user_id)
+          ^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'user_id'
+ERROR 2026-05-16 01:46:00,993 basehttp 15348 8360 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 500 68377
+INFO 2026-05-16 01:46:14,997 autoreload 15348 19856 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:46:16,090 autoreload 21324 28308 Watching for file changes with StatReloader
+ERROR 2026-05-16 01:46:17,413 log 21324 10780 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 14, in create_play
+    data = json.loads(request.body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2026-05-16 01:46:17,416 basehttp 21324 10780 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 500 80742
+INFO 2026-05-16 01:46:38,080 autoreload 21324 28308 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:46:39,003 autoreload 28732 28380 Watching for file changes with StatReloader
+INFO 2026-05-16 01:46:42,638 autoreload 28732 28380 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:46:43,838 autoreload 18504 26908 Watching for file changes with StatReloader
+INFO 2026-05-16 01:46:45,367 autoreload 18504 26908 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:46:46,265 autoreload 20932 3848 Watching for file changes with StatReloader
+ERROR 2026-05-16 01:46:48,916 log 20932 14016 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 14, in create_play
+    data = json.loads(request.body)
+                      ^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\request.py", line 380, in body
+    raise RawPostDataException(
+django.http.request.RawPostDataException: You cannot access body after reading from request's data stream
+ERROR 2026-05-16 01:46:48,918 basehttp 20932 14016 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 500 72278
+INFO 2026-05-16 01:46:57,600 autoreload 20932 3848 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:46:58,341 autoreload 22164 25852 Watching for file changes with StatReloader
+INFO 2026-05-16 01:47:43,688 autoreload 22164 25852 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:47:44,582 autoreload 26016 18972 Watching for file changes with StatReloader
+ERROR 2026-05-16 01:47:51,419 log 26016 23324 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 13, in create_play
+    data = json.loads(request.body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2026-05-16 01:47:51,421 basehttp 26016 23324 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 500 80730
+INFO 2026-05-16 01:48:02,061 autoreload 26016 18972 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:48:02,907 autoreload 14504 24100 Watching for file changes with StatReloader
+INFO 2026-05-16 01:48:04,188 autoreload 14504 24100 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:48:05,156 autoreload 13372 11600 Watching for file changes with StatReloader
+INFO 2026-05-16 01:48:06,825 autoreload 13372 11600 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:48:07,557 autoreload 4864 10028 Watching for file changes with StatReloader
+ERROR 2026-05-16 01:48:09,217 log 4864 16236 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 13, in create_play
+    data = json.loads(request.body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2026-05-16 01:48:09,219 basehttp 4864 16236 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 500 80751
+INFO 2026-05-16 01:48:17,104 autoreload 4864 10028 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:48:17,935 autoreload 2712 12244 Watching for file changes with StatReloader
+INFO 2026-05-16 01:48:20,646 autoreload 2712 12244 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:48:21,597 autoreload 23256 13068 Watching for file changes with StatReloader
+INFO 2026-05-16 01:48:24,336 autoreload 23256 13068 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:48:25,260 autoreload 17304 19844 Watching for file changes with StatReloader
+INFO 2026-05-16 01:48:26,777 autoreload 17304 19844 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:48:27,848 autoreload 7088 1240 Watching for file changes with StatReloader
+INFO 2026-05-16 01:48:30,427 autoreload 7088 1240 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 01:48:31,188 autoreload 20076 25780 Watching for file changes with StatReloader
+INFO 2026-05-16 01:48:36,936 basehttp 20076 13452 "GET /create/play?user_id=9&my_number=16 HTTP/1.1" 200 21
+WARNING 2026-05-16 01:48:57,949 basehttp 20076 15440 "GET /create/play/8/9 HTTP/1.1" 404 3238
+WARNING 2026-05-16 01:48:58,068 basehttp 20076 15440 "GET /favicon.ico HTTP/1.1" 404 2846
+INFO 2026-05-16 01:49:22,613 basehttp 20076 15440 "GET /play/8/9 HTTP/1.1" 200 10283
+INFO 2026-05-16 01:49:22,740 basehttp 20076 15440 "GET /static/assets/style.css HTTP/1.1" 200 12286
+INFO 2026-05-16 01:49:22,749 basehttp 20076 5380 "GET /static/assets/javascript.js HTTP/1.1" 200 7392
+INFO 2026-05-16 01:49:30,174 basehttp 20076 5380 "GET /create/play?user_id=8&my_number=69 HTTP/1.1" 200 21
+INFO 2026-05-16 01:51:51,856 basehttp 20076 13452 "GET /play/9/8 HTTP/1.1" 200 10287
+INFO 2026-05-16 01:52:01,966 basehttp 20076 13452 "GET /create/play?user_id=9&my_number=5749 HTTP/1.1" 200 21
+WARNING 2026-05-16 01:58:43,053 basehttp 20076 13076 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2957
+INFO 2026-05-16 01:58:44,739 basehttp 20076 13076 "GET /play/9/8 HTTP/1.1" 200 10426
+WARNING 2026-05-16 01:58:44,792 basehttp 20076 13076 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2957
+INFO 2026-05-16 01:58:48,993 basehttp 20076 13076 "GET /create/play?user_id=9&my_number=6489 HTTP/1.1" 200 21
+INFO 2026-05-16 01:59:57,690 basehttp 20076 13076 "GET /play/9/8 HTTP/1.1" 200 10438
+WARNING 2026-05-16 01:59:57,742 basehttp 20076 13076 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2957
+INFO 2026-05-16 02:00:01,005 basehttp 20076 13076 "GET /create/play?user_id=9&my_number=6489 HTTP/1.1" 200 21
+INFO 2026-05-16 02:01:12,733 autoreload 20076 25780 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 02:01:13,791 autoreload 13416 19728 Watching for file changes with StatReloader
+INFO 2026-05-16 02:01:17,406 autoreload 13416 19728 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 02:01:18,099 autoreload 24360 15540 Watching for file changes with StatReloader
+INFO 2026-05-16 02:01:24,590 autoreload 24360 15540 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 02:01:25,297 autoreload 22320 11744 Watching for file changes with StatReloader
+INFO 2026-05-16 02:01:39,425 autoreload 22320 11744 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 02:01:40,086 autoreload 26040 17664 Watching for file changes with StatReloader
+INFO 2026-05-16 02:01:45,528 autoreload 26040 17664 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 02:01:46,349 autoreload 27328 14816 Watching for file changes with StatReloader
+INFO 2026-05-16 02:01:47,590 autoreload 27328 14816 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 02:01:48,314 autoreload 21312 4564 Watching for file changes with StatReloader
+INFO 2026-05-16 02:01:49,572 autoreload 21312 4564 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 02:01:50,617 autoreload 20340 22932 Watching for file changes with StatReloader
+INFO 2026-05-16 02:01:52,114 autoreload 20340 22932 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-16 02:01:52,841 autoreload 17564 28632 Watching for file changes with StatReloader
+INFO 2026-05-16 02:02:18,196 basehttp 17564 18252 "GET /play/9/8 HTTP/1.1" 200 10496
+WARNING 2026-05-16 02:02:18,244 basehttp 17564 18252 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2957
+INFO 2026-05-16 02:02:21,277 basehttp 17564 18252 "GET /create/play?user_id=9&my_number=5678 HTTP/1.1" 200 57
+INFO 2026-05-16 02:06:35,082 basehttp 17564 18252 "GET /play/9/8 HTTP/1.1" 200 10684
+WARNING 2026-05-16 02:06:35,128 basehttp 17564 18252 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2957
+INFO 2026-05-16 02:06:44,645 basehttp 17564 18252 "GET /create/play?user_id=9&my_number=6740 HTTP/1.1" 200 57
+INFO 2026-05-16 02:06:58,451 basehttp 17564 18252 "GET /play/9/8 HTTP/1.1" 200 10684
+INFO 2026-05-16 02:07:02,395 basehttp 17564 18252 "GET /create/play?user_id=9&my_number=9120 HTTP/1.1" 200 57

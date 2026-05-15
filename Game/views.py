@@ -9,20 +9,28 @@ class API:
         pass
     
     def create_play(self, request):
-        
-        data = json.loads(request.body)
 
-        user_id = data["user_id"]
-        my_number = data["my_number"]
+        user_id = request.GET["user_id"]
+        my_number = request.GET["my_number"]
         
-        Play.objects.create(
-            user = UsersToPlay.objects.get(user_id=user_id),
-            my_number = my_number
-        )
+        try:
         
-        return JsonResponse({
-            "status": "success",
-        })
+            Play.objects.create(
+                user = UsersToPlay.objects.get(user_id=user_id),
+                my_number = my_number
+            )
+            
+            return JsonResponse({
+                "status": "success",
+                "number": my_number,
+                "result": "wait",
+            }, status=200)
+            
+        except Exception as e:
+            return JsonResponse({
+                "status": "error",
+                "message": str(e)
+            }, status=500)
         
     def create_guess(self, request):
         pass

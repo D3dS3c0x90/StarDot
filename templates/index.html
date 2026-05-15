@@ -27,6 +27,76 @@
 </head>
 
 <body>
+  <!-- Number Input Modal -->
+  <div class="modal fade" id="numberModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="numberModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="border: none; border-radius: 16px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);">
+        <div class="modal-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px 16px 0 0; border: none; padding: 2rem;">
+          <h5 class="modal-title" id="numberModalLabel" style="color: white; font-size: 1.5rem; font-weight: 600;">
+            <i class="ti ti-number"></i> أدخل رقمك المفضل
+          </h5>
+        </div>
+        <form id="numberForm" method="GET">
+          <div class="modal-body" style="padding: 2rem;">
+            <p style="color: #666; margin-bottom: 1.5rem; text-align: center; font-size: 0.95rem;">
+            أدخل 4 أرقام مختلفة مثل 0574، 9301، 5109
+            </p>
+            
+            <div class="mb-3">
+              <label for="userNumber" class="form-label" style="color: #333; font-weight: 500; margin-bottom: 0.75rem;">الرقم:</label>
+              <input 
+                type="number" 
+                class="form-control" 
+                id="userNumber" 
+                name="number" 
+                min="0123" 
+                max="9876" 
+                required 
+                placeholder="أدخل الرقم هنا"
+                style="border: 2px solid #667eea; border-radius: 10px; padding: 0.75rem; font-size: 1rem;"
+              >
+              <div class="form-text" style="color: #999; margin-top: 0.5rem;">الرقم لابد أن يكون مختلفا</div>
+            </div>
+          </div>
+          <div class="modal-footer" style="border-top: 1px solid #e0e0e0; padding: 1.5rem 2rem; background: #f8f9fa; border-radius: 0 0 16px 16px; display: flex; gap: 0.75rem;">
+            <button type="button" class="btn btn-outline-secondary" id="clearBtn" style="border: 2px solid #667eea; color: #667eea; border-radius: 10px; font-weight: 600;">
+              <i class="ti ti-refresh"></i> مسح
+            </button>
+            <button type="submit" class="btn" style="background-color: #667eea; color: white; border: 2px solid #667eea; border-radius: 10px; font-weight: 600;">
+              <i class="ti ti-check"></i> تأكيد
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Error Modal -->
+   <div class="modal fade"
+     id="errorModal"
+     tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-danger text-white">
+            <h5 class="modal-title">
+              Error
+            </h5>
+          </div>
+          <div class="modal-body">
+            حدث خطأ أثناء حفظ الرقم 😢
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              إغلاق
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   <main class="main" id="top">
     <div class="main-container">
       <!-- Header -->
@@ -140,10 +210,67 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="{% static './assets/javascript.js' %}"></script>
 
+  <!-- Modal Script -->
+  <script>
+    // Show modal on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      const numberModal = new bootstrap.Modal(document.getElementById('numberModal'));
+      numberModal.show();
+
+      // Clear button functionality
+      document.getElementById('clearBtn').addEventListener('click', function() {
+        document.getElementById('userNumber').value = '';
+        document.getElementById('userNumber').focus();
+      });
+
+      // Form submission
+      document.getElementById('numberForm')
+        .addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const userNumber = document.getElementById('userNumber').value;
+            const userId = {{ me.user_id }};
+            try {
+                const response = await fetch(
+                    `/create/play?user_id=${userId}&my_number=${userNumber}`
+                );
+                // SERVER ERROR
+                if (!response.ok) {
+                    throw new Error(
+                        `Server Error: ${response.status}`
+                    );
+                }
+                const data = await response.json();
+                const myInsertedSuggestion = data.number.toString().split('').map(Number)
+                const myResult = data.result
+
+                mySuggestions.push({
+                    numbers: myInsertedSuggestion,
+                    result: myResult
+                });
+
+                updateComparison();
+
+                // mySuggestions => { numbers: [2, 5, 7, 9], result: 'wait' }
+                console.log(data);
+                numberModal.hide();
+                initGame();
+            }
+            catch(error) {
+                console.log(error);
+                // SHOW ERROR MODAL
+                const errorModal = new bootstrap.Modal(
+                    document.getElementById('errorModal')
+                );
+                errorModal.show();
+            }
+        });
+    });
+  </script>
+
   <!-- Game Script -->
   <script>
-    // Initialize game on page load
-    document.addEventListener('DOMContentLoaded', initGame);
+    // Initialize game on page load (will be called after modal submission)
+    // document.addEventListener('DOMContentLoaded', initGame);
   </script>
 </body>
 
