@@ -1,0 +1,727 @@
+INFO 2026-05-13 19:14:34,302 autoreload 14892 12164 Watching for file changes with StatReloader
+WARNING 2026-05-13 19:14:45,644 basehttp 14892 17520 "GET / HTTP/1.1" 404 2497
+WARNING 2026-05-13 19:14:45,847 basehttp 14892 17520 "GET /favicon.ico HTTP/1.1" 404 2548
+INFO 2026-05-13 19:14:51,771 basehttp 14892 17520 "GET /admin HTTP/1.1" 301 0
+INFO 2026-05-13 19:14:51,783 basehttp 14892 26888 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-05-13 19:14:51,946 basehttp 14892 26888 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+INFO 2026-05-13 19:14:52,084 basehttp 14892 15080 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-05-13 19:14:52,110 basehttp 14892 8952 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-05-13 19:14:52,124 basehttp 14892 26888 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-05-13 19:14:52,135 basehttp 14892 20336 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2026-05-13 19:14:52,152 basehttp 14892 20244 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-05-13 19:14:52,156 basehttp 14892 20244 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-05-13 19:14:52,159 basehttp 14892 5768 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-05-13 19:14:56,841 basehttp 14892 5768 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-05-13 19:14:56,878 basehttp 14892 5768 "GET /admin/ HTTP/1.1" 200 6097
+INFO 2026-05-13 19:14:56,891 basehttp 14892 5768 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-05-13 19:14:56,902 basehttp 14892 5768 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2026-05-13 19:14:56,903 basehttp 14892 20244 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2026-05-13 19:15:03,492 basehttp 14892 20244 "GET / HTTP/1.1" 404 2497
+INFO 2026-05-13 19:16:44,182 autoreload 28084 16172 Watching for file changes with StatReloader
+WARNING 2026-05-13 19:16:52,799 basehttp 28084 17600 "GET / HTTP/1.1" 404 2497
+WARNING 2026-05-13 19:16:52,905 basehttp 28084 17600 "GET /favicon.ico HTTP/1.1" 404 2548
+INFO 2026-05-13 19:17:01,659 basehttp 28084 17600 "GET /admin HTTP/1.1" 301 0
+INFO 2026-05-13 19:17:01,676 basehttp 28084 13008 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-05-13 19:17:01,730 basehttp 28084 13008 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+INFO 2026-05-13 19:17:01,908 basehttp 28084 4540 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2026-05-13 19:17:01,915 basehttp 28084 8568 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-05-13 19:17:01,945 basehttp 28084 22368 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-05-13 19:17:01,950 basehttp 28084 13008 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-05-13 19:17:01,958 basehttp 28084 11040 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-05-13 19:17:01,965 basehttp 28084 20252 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-05-13 19:17:01,965 basehttp 28084 11040 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-05-13 19:17:05,980 basehttp 28084 11040 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-05-13 19:17:06,001 basehttp 28084 11040 "GET /admin/ HTTP/1.1" 200 6097
+INFO 2026-05-13 19:17:06,045 basehttp 28084 11040 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-05-13 19:17:06,055 basehttp 28084 11040 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2026-05-13 19:17:06,055 basehttp 28084 20252 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2026-05-15 02:26:28,440 autoreload 9392 22720 Watching for file changes with StatReloader
+WARNING 2026-05-15 02:26:48,539 basehttp 9392 6308 "GET / HTTP/1.1" 404 2497
+WARNING 2026-05-15 02:26:48,669 basehttp 9392 6308 "GET /favicon.ico HTTP/1.1" 404 2548
+INFO 2026-05-15 02:26:54,487 basehttp 9392 6308 "GET /admin HTTP/1.1" 301 0
+INFO 2026-05-15 02:26:54,507 basehttp 9392 9692 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-05-15 02:26:54,674 basehttp 9392 9692 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+INFO 2026-05-15 02:26:54,891 basehttp 9392 29436 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-05-15 02:26:54,896 basehttp 9392 15956 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-05-15 02:26:54,899 basehttp 9392 9692 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-05-15 02:26:54,912 basehttp 9392 6384 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2026-05-15 02:26:54,915 basehttp 9392 26924 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-05-15 02:26:54,917 basehttp 9392 22012 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-05-15 02:26:54,929 basehttp 9392 22012 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-05-15 02:26:58,993 basehttp 9392 22012 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-05-15 02:26:59,039 basehttp 9392 22012 "GET /admin/ HTTP/1.1" 200 6097
+INFO 2026-05-15 02:26:59,093 basehttp 9392 6384 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2026-05-15 02:26:59,094 basehttp 9392 26924 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2026-05-15 02:26:59,095 basehttp 9392 22012 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-05-15 02:27:03,088 basehttp 9392 6384 "GET /admin/ HTTP/1.1" 200 6097
+INFO 2026-05-15 02:27:37,674 autoreload 9392 22720 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\StarDot\urls.py changed, reloading.
+INFO 2026-05-15 02:27:38,617 autoreload 28448 23272 Watching for file changes with StatReloader
+INFO 2026-05-15 02:30:13,075 autoreload 28448 23272 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\StarDot\urls.py changed, reloading.
+INFO 2026-05-15 02:30:13,798 autoreload 21936 24944 Watching for file changes with StatReloader
+INFO 2026-05-15 02:30:16,350 autoreload 21936 24944 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\StarDot\urls.py changed, reloading.
+INFO 2026-05-15 02:30:17,055 autoreload 5440 23124 Watching for file changes with StatReloader
+INFO 2026-05-15 02:30:20,754 autoreload 5440 23124 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\StarDot\urls.py changed, reloading.
+INFO 2026-05-15 02:30:21,498 autoreload 12660 11668 Watching for file changes with StatReloader
+INFO 2026-05-15 02:30:25,045 autoreload 12660 11668 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\StarDot\urls.py changed, reloading.
+INFO 2026-05-15 02:30:25,723 autoreload 7476 23664 Watching for file changes with StatReloader
+INFO 2026-05-15 02:30:41,961 autoreload 23904 11680 Watching for file changes with StatReloader
+INFO 2026-05-15 02:30:49,798 autoreload 23904 11680 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\StarDot\urls.py changed, reloading.
+INFO 2026-05-15 02:30:50,490 autoreload 26504 21328 Watching for file changes with StatReloader
+INFO 2026-05-15 02:30:55,130 autoreload 26504 21328 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\StarDot\urls.py changed, reloading.
+INFO 2026-05-15 02:30:55,915 autoreload 15340 8484 Watching for file changes with StatReloader
+WARNING 2026-05-15 02:30:57,328 basehttp 15340 7352 "GET / HTTP/1.1" 404 2645
+WARNING 2026-05-15 02:31:01,753 basehttp 15340 7352 "GET /play HTTP/1.1" 404 2675
+INFO 2026-05-15 02:31:05,750 basehttp 15340 7352 "GET /play/A/Z HTTP/1.1" 200 0
+WARNING 2026-05-15 02:31:10,432 basehttp 15340 7352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2807
+INFO 2026-05-15 02:32:04,903 autoreload 15316 17452 Watching for file changes with StatReloader
+INFO 2026-05-15 02:32:14,904 basehttp 15316 8244 "GET /play/A/Z HTTP/1.1" 200 0
+WARNING 2026-05-15 02:32:14,958 basehttp 15316 8244 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2807
+INFO 2026-05-15 02:35:30,971 autoreload 15316 17452 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 02:35:31,902 autoreload 25628 6316 Watching for file changes with StatReloader
+INFO 2026-05-15 02:35:39,124 basehttp 25628 10268 "GET /play/A/Z HTTP/1.1" 200 5390
+WARNING 2026-05-15 02:35:39,182 basehttp 25628 10268 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2807
+WARNING 2026-05-15 02:35:39,194 basehttp 25628 17980 "GET /static/asstes/javascript.js HTTP/1.1" 404 1987
+WARNING 2026-05-15 02:35:39,202 basehttp 25628 22716 "GET /static/asstes/style.css HTTP/1.1" 404 1975
+INFO 2026-05-15 02:37:52,433 basehttp 25628 10268 "GET /play/A/Z HTTP/1.1" 200 5390
+INFO 2026-05-15 02:37:52,595 basehttp 25628 10268 "GET /static/assets/style.css HTTP/1.1" 200 12286
+INFO 2026-05-15 02:37:52,598 basehttp 25628 28828 "GET /static/assets/javascript.js HTTP/1.1" 200 7392
+WARNING 2026-05-15 02:37:52,615 basehttp 25628 23092 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2807
+WARNING 2026-05-15 02:38:56,551 basehttp 25628 23092 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2807
+INFO 2026-05-15 02:39:27,097 basehttp 25628 23092 "GET /play/A/Z HTTP/1.1" 200 5390
+WARNING 2026-05-15 02:39:27,191 basehttp 25628 23092 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2807
+INFO 2026-05-15 02:39:36,402 basehttp 25628 23092 "GET /play/A/Z HTTP/1.1" 200 5390
+INFO 2026-05-15 02:54:55,994 autoreload 25628 6316 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:54:56,846 autoreload 15476 8148 Watching for file changes with StatReloader
+INFO 2026-05-15 02:55:08,749 autoreload 15476 8148 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:55:09,388 autoreload 24324 20196 Watching for file changes with StatReloader
+INFO 2026-05-15 02:55:10,785 autoreload 24324 20196 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:55:11,537 autoreload 19928 13600 Watching for file changes with StatReloader
+INFO 2026-05-15 02:55:12,843 autoreload 19928 13600 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:55:13,454 autoreload 20708 19304 Watching for file changes with StatReloader
+INFO 2026-05-15 02:55:15,781 autoreload 20708 19304 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:55:16,450 autoreload 19384 6776 Watching for file changes with StatReloader
+INFO 2026-05-15 02:55:19,823 autoreload 19384 6776 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:55:20,407 autoreload 17900 5532 Watching for file changes with StatReloader
+INFO 2026-05-15 02:55:24,846 autoreload 17900 5532 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:55:25,455 autoreload 23700 14772 Watching for file changes with StatReloader
+INFO 2026-05-15 02:55:27,804 autoreload 23700 14772 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:55:28,425 autoreload 13456 8388 Watching for file changes with StatReloader
+INFO 2026-05-15 02:55:33,939 autoreload 13456 8388 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:55:34,650 autoreload 16920 4404 Watching for file changes with StatReloader
+INFO 2026-05-15 02:55:36,124 autoreload 16920 4404 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:55:36,915 autoreload 10796 13244 Watching for file changes with StatReloader
+INFO 2026-05-15 02:55:38,210 autoreload 10796 13244 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:55:38,877 autoreload 6652 22624 Watching for file changes with StatReloader
+INFO 2026-05-15 02:55:46,631 autoreload 6652 22624 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:55:47,329 autoreload 22152 12036 Watching for file changes with StatReloader
+INFO 2026-05-15 02:56:00,399 autoreload 22152 12036 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:56:01,031 autoreload 21236 24400 Watching for file changes with StatReloader
+INFO 2026-05-15 02:56:05,702 autoreload 21236 24400 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:56:06,329 autoreload 9356 14904 Watching for file changes with StatReloader
+INFO 2026-05-15 02:56:13,930 autoreload 9356 14904 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:56:14,556 autoreload 11696 20920 Watching for file changes with StatReloader
+INFO 2026-05-15 02:56:31,945 autoreload 11696 20920 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:56:32,705 autoreload 9656 20168 Watching for file changes with StatReloader
+INFO 2026-05-15 02:56:34,149 autoreload 9656 20168 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:56:34,773 autoreload 15844 22472 Watching for file changes with StatReloader
+INFO 2026-05-15 02:56:57,482 autoreload 15844 22472 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:56:58,123 autoreload 29240 6296 Watching for file changes with StatReloader
+INFO 2026-05-15 02:57:19,700 autoreload 29240 6296 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:57:20,388 autoreload 16836 7324 Watching for file changes with StatReloader
+INFO 2026-05-15 02:57:23,934 autoreload 16836 7324 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:57:24,611 autoreload 16972 14204 Watching for file changes with StatReloader
+INFO 2026-05-15 02:57:25,932 autoreload 16972 14204 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:57:26,667 autoreload 23108 26800 Watching for file changes with StatReloader
+INFO 2026-05-15 02:57:27,993 autoreload 23108 26800 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:57:28,580 autoreload 27492 21044 Watching for file changes with StatReloader
+INFO 2026-05-15 02:57:29,942 autoreload 27492 21044 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:57:30,586 autoreload 5636 20044 Watching for file changes with StatReloader
+INFO 2026-05-15 02:57:39,362 autoreload 5636 20044 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:57:40,026 autoreload 21760 6352 Watching for file changes with StatReloader
+INFO 2026-05-15 02:57:47,655 autoreload 21760 6352 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:57:48,349 autoreload 13424 22588 Watching for file changes with StatReloader
+INFO 2026-05-15 02:57:49,777 autoreload 13424 22588 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:57:50,804 autoreload 19532 2056 Watching for file changes with StatReloader
+INFO 2026-05-15 02:57:52,284 autoreload 19532 2056 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:57:52,952 autoreload 9860 21376 Watching for file changes with StatReloader
+INFO 2026-05-15 02:57:56,317 autoreload 9860 21376 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:57:57,109 autoreload 520 14552 Watching for file changes with StatReloader
+INFO 2026-05-15 02:58:06,003 autoreload 520 14552 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:58:06,653 autoreload 11480 18088 Watching for file changes with StatReloader
+INFO 2026-05-15 02:58:27,058 autoreload 11480 18088 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:58:27,748 autoreload 22940 12252 Watching for file changes with StatReloader
+INFO 2026-05-15 02:58:29,046 autoreload 22940 12252 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:58:29,645 autoreload 16672 20388 Watching for file changes with StatReloader
+INFO 2026-05-15 02:58:36,247 autoreload 16672 20388 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:58:36,856 autoreload 17284 22972 Watching for file changes with StatReloader
+INFO 2026-05-15 02:58:45,639 autoreload 17284 22972 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:58:46,385 autoreload 26152 16472 Watching for file changes with StatReloader
+INFO 2026-05-15 02:58:47,722 autoreload 26152 16472 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:58:48,320 autoreload 8648 29284 Watching for file changes with StatReloader
+INFO 2026-05-15 02:58:50,671 autoreload 8648 29284 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:58:51,396 autoreload 3672 22740 Watching for file changes with StatReloader
+INFO 2026-05-15 02:59:11,954 autoreload 3672 22740 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:59:12,626 autoreload 11948 17004 Watching for file changes with StatReloader
+INFO 2026-05-15 02:59:39,674 autoreload 11948 17004 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:59:40,357 autoreload 20588 16464 Watching for file changes with StatReloader
+INFO 2026-05-15 02:59:42,870 autoreload 20588 16464 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:59:43,624 autoreload 20052 22392 Watching for file changes with StatReloader
+INFO 2026-05-15 02:59:45,069 autoreload 20052 22392 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:59:45,736 autoreload 13896 5208 Watching for file changes with StatReloader
+INFO 2026-05-15 02:59:48,093 autoreload 13896 5208 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:59:48,708 autoreload 17276 19364 Watching for file changes with StatReloader
+INFO 2026-05-15 02:59:53,132 autoreload 17276 19364 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:59:53,794 autoreload 23928 28124 Watching for file changes with StatReloader
+INFO 2026-05-15 02:59:55,120 autoreload 23928 28124 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 02:59:55,723 autoreload 440 4036 Watching for file changes with StatReloader
+INFO 2026-05-15 03:00:22,000 autoreload 440 4036 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:00:22,657 autoreload 16596 20208 Watching for file changes with StatReloader
+INFO 2026-05-15 03:00:30,154 autoreload 16596 20208 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:00:30,760 autoreload 12452 29604 Watching for file changes with StatReloader
+INFO 2026-05-15 03:00:34,117 autoreload 12452 29604 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:00:34,780 autoreload 7984 22388 Watching for file changes with StatReloader
+INFO 2026-05-15 03:00:41,348 autoreload 7984 22388 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:00:42,010 autoreload 6408 19184 Watching for file changes with StatReloader
+INFO 2026-05-15 03:00:59,885 autoreload 6408 19184 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:01:00,557 autoreload 24072 2564 Watching for file changes with StatReloader
+INFO 2026-05-15 03:01:05,112 autoreload 24072 2564 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:01:05,805 autoreload 10320 20036 Watching for file changes with StatReloader
+INFO 2026-05-15 03:01:07,224 autoreload 10320 20036 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:01:07,861 autoreload 8608 22752 Watching for file changes with StatReloader
+INFO 2026-05-15 03:01:09,155 autoreload 8608 22752 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:01:09,762 autoreload 17304 23208 Watching for file changes with StatReloader
+INFO 2026-05-15 03:01:11,070 autoreload 17304 23208 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:01:11,694 autoreload 15836 13340 Watching for file changes with StatReloader
+INFO 2026-05-15 03:01:14,158 autoreload 15836 13340 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:01:14,757 autoreload 18172 8172 Watching for file changes with StatReloader
+INFO 2026-05-15 03:01:22,200 autoreload 18172 8172 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:01:22,816 autoreload 7960 24160 Watching for file changes with StatReloader
+INFO 2026-05-15 03:01:26,173 autoreload 7960 24160 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:01:26,824 autoreload 10568 16280 Watching for file changes with StatReloader
+INFO 2026-05-15 03:01:42,478 autoreload 10568 16280 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:01:43,110 autoreload 2184 8616 Watching for file changes with StatReloader
+INFO 2026-05-15 03:01:45,476 autoreload 2184 8616 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:01:46,117 autoreload 22384 13636 Watching for file changes with StatReloader
+INFO 2026-05-15 03:01:53,832 autoreload 22384 13636 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:01:54,554 autoreload 14812 15484 Watching for file changes with StatReloader
+INFO 2026-05-15 03:02:03,342 autoreload 14812 15484 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:02:04,006 autoreload 19812 27196 Watching for file changes with StatReloader
+INFO 2026-05-15 03:16:40,048 autoreload 19812 27196 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:16:41,046 autoreload 11104 7512 Watching for file changes with StatReloader
+INFO 2026-05-15 03:18:15,051 autoreload 11104 7512 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:18:15,763 autoreload 15468 4336 Watching for file changes with StatReloader
+INFO 2026-05-15 03:18:21,533 autoreload 15468 4336 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:18:22,188 autoreload 24760 7872 Watching for file changes with StatReloader
+INFO 2026-05-15 03:18:24,548 autoreload 24760 7872 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:18:25,164 autoreload 17144 25368 Watching for file changes with StatReloader
+INFO 2026-05-15 03:18:30,670 autoreload 17144 25368 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:18:31,689 autoreload 27712 14688 Watching for file changes with StatReloader
+INFO 2026-05-15 03:19:52,197 autoreload 27712 14688 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\urls.py changed, reloading.
+INFO 2026-05-15 03:19:52,870 autoreload 1324 24400 Watching for file changes with StatReloader
+INFO 2026-05-15 03:19:54,339 autoreload 1324 24400 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\urls.py changed, reloading.
+INFO 2026-05-15 03:19:54,972 autoreload 23952 25568 Watching for file changes with StatReloader
+INFO 2026-05-15 03:19:59,711 autoreload 23952 25568 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\urls.py changed, reloading.
+INFO 2026-05-15 03:20:00,371 autoreload 25748 17900 Watching for file changes with StatReloader
+INFO 2026-05-15 03:20:36,163 autoreload 4152 22056 Watching for file changes with StatReloader
+INFO 2026-05-15 03:20:44,990 autoreload 4152 22056 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:20:45,831 autoreload 23060 14348 Watching for file changes with StatReloader
+INFO 2026-05-15 03:20:53,569 autoreload 23060 14348 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:20:54,340 autoreload 14532 13772 Watching for file changes with StatReloader
+INFO 2026-05-15 03:21:02,509 basehttp 14532 12284 "GET /play/1 HTTP/1.1" 200 5390
+INFO 2026-05-15 03:21:02,564 basehttp 14532 12284 "GET /static/assets/style.css HTTP/1.1" 304 0
+INFO 2026-05-15 03:21:02,566 basehttp 14532 10296 "GET /static/assets/javascript.js HTTP/1.1" 304 0
+INFO 2026-05-15 03:21:08,156 basehttp 14532 10296 "GET /play/2 HTTP/1.1" 200 5390
+INFO 2026-05-15 03:23:31,427 autoreload 14532 13772 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:23:32,314 autoreload 23424 6828 Watching for file changes with StatReloader
+INFO 2026-05-15 03:23:35,722 autoreload 23424 6828 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:23:36,374 autoreload 16668 8836 Watching for file changes with StatReloader
+INFO 2026-05-15 03:23:40,873 autoreload 16668 8836 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:23:41,518 autoreload 6824 26484 Watching for file changes with StatReloader
+INFO 2026-05-15 03:23:43,885 autoreload 6824 26484 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:23:44,538 autoreload 16816 6728 Watching for file changes with StatReloader
+INFO 2026-05-15 03:23:53,342 autoreload 16816 6728 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:23:54,032 autoreload 13648 5444 Watching for file changes with StatReloader
+INFO 2026-05-15 03:23:59,579 autoreload 13648 5444 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:24:00,260 autoreload 14080 8920 Watching for file changes with StatReloader
+INFO 2026-05-15 03:24:03,778 autoreload 14080 8920 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:24:04,483 autoreload 25372 3708 Watching for file changes with StatReloader
+INFO 2026-05-15 03:24:08,115 autoreload 25372 3708 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:24:08,803 autoreload 25556 27864 Watching for file changes with StatReloader
+INFO 2026-05-15 03:24:14,255 autoreload 25556 27864 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:24:15,010 autoreload 4700 2664 Watching for file changes with StatReloader
+INFO 2026-05-15 03:27:00,736 autoreload 4700 2664 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\urls.py changed, reloading.
+INFO 2026-05-15 03:27:01,582 autoreload 20456 9012 Watching for file changes with StatReloader
+INFO 2026-05-15 03:27:04,302 autoreload 20456 9012 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\urls.py changed, reloading.
+INFO 2026-05-15 03:27:05,045 autoreload 15196 17520 Watching for file changes with StatReloader
+INFO 2026-05-15 03:29:31,254 autoreload 24552 3936 Watching for file changes with StatReloader
+INFO 2026-05-15 03:32:16,317 autoreload 24552 3936 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:32:17,056 autoreload 18664 15304 Watching for file changes with StatReloader
+INFO 2026-05-15 03:32:18,527 autoreload 18664 15304 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:32:19,167 autoreload 3980 8280 Watching for file changes with StatReloader
+INFO 2026-05-15 03:32:20,553 autoreload 3980 8280 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:32:21,263 autoreload 9660 18988 Watching for file changes with StatReloader
+INFO 2026-05-15 03:53:28,419 autoreload 13124 18944 Watching for file changes with StatReloader
+INFO 2026-05-15 03:53:34,795 autoreload 13124 18944 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:53:35,542 autoreload 22232 15828 Watching for file changes with StatReloader
+INFO 2026-05-15 03:53:54,486 autoreload 22232 15828 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:53:55,149 autoreload 13552 17664 Watching for file changes with StatReloader
+INFO 2026-05-15 03:54:08,024 autoreload 13552 17664 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:54:08,640 autoreload 20356 11832 Watching for file changes with StatReloader
+INFO 2026-05-15 03:54:11,995 autoreload 20356 11832 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:54:12,789 autoreload 16440 16016 Watching for file changes with StatReloader
+INFO 2026-05-15 03:54:26,675 autoreload 16440 16016 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:54:27,330 autoreload 25544 2208 Watching for file changes with StatReloader
+INFO 2026-05-15 03:54:28,615 autoreload 25544 2208 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:54:29,256 autoreload 18188 18236 Watching for file changes with StatReloader
+INFO 2026-05-15 03:54:32,621 autoreload 18188 18236 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:54:33,273 autoreload 5844 27312 Watching for file changes with StatReloader
+INFO 2026-05-15 03:55:23,977 autoreload 5844 27312 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:55:24,601 autoreload 26228 17420 Watching for file changes with StatReloader
+INFO 2026-05-15 03:55:53,616 autoreload 26228 17420 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:55:54,354 autoreload 27416 22560 Watching for file changes with StatReloader
+INFO 2026-05-15 03:55:56,647 autoreload 27416 22560 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:55:57,289 autoreload 15276 11240 Watching for file changes with StatReloader
+INFO 2026-05-15 03:56:39,471 autoreload 15276 11240 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:56:40,142 autoreload 27388 18528 Watching for file changes with StatReloader
+INFO 2026-05-15 03:56:41,388 autoreload 27388 18528 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:56:42,001 autoreload 6516 26100 Watching for file changes with StatReloader
+INFO 2026-05-15 03:56:48,492 autoreload 6516 26100 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:56:49,167 autoreload 8244 18408 Watching for file changes with StatReloader
+INFO 2026-05-15 03:57:05,563 autoreload 8244 18408 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:57:06,290 autoreload 17896 18180 Watching for file changes with StatReloader
+INFO 2026-05-15 03:57:07,586 autoreload 17896 18180 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:57:08,297 autoreload 3372 11048 Watching for file changes with StatReloader
+INFO 2026-05-15 03:57:10,628 autoreload 3372 11048 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:57:11,276 autoreload 20500 25388 Watching for file changes with StatReloader
+INFO 2026-05-15 03:57:12,521 autoreload 20500 25388 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:57:13,241 autoreload 3316 17412 Watching for file changes with StatReloader
+INFO 2026-05-15 03:57:26,118 autoreload 3316 17412 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:57:26,785 autoreload 14672 26024 Watching for file changes with StatReloader
+ERROR 2026-05-15 03:57:31,168 basehttp 14672 25464 "GET /play/2 HTTP/1.1" 500 59
+ERROR 2026-05-15 03:57:42,656 basehttp 14672 25464 "GET /play/9 HTTP/1.1" 500 59
+ERROR 2026-05-15 03:57:52,507 basehttp 14672 25464 "GET /play/9/8 HTTP/1.1" 500 59
+INFO 2026-05-15 03:58:04,795 autoreload 14672 26024 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\urls.py changed, reloading.
+INFO 2026-05-15 03:58:05,463 autoreload 20488 13276 Watching for file changes with StatReloader
+INFO 2026-05-15 03:58:09,054 autoreload 20488 13276 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\urls.py changed, reloading.
+INFO 2026-05-15 03:58:09,798 autoreload 8516 776 Watching for file changes with StatReloader
+INFO 2026-05-15 03:58:14,456 autoreload 8516 776 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:58:15,127 autoreload 11792 16536 Watching for file changes with StatReloader
+INFO 2026-05-15 03:58:17,720 autoreload 11792 16536 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:58:18,385 autoreload 3580 15440 Watching for file changes with StatReloader
+INFO 2026-05-15 03:58:22,060 autoreload 3580 15440 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:58:22,732 autoreload 12756 14600 Watching for file changes with StatReloader
+ERROR 2026-05-15 03:58:25,564 log 12756 9668 Internal Server Error: /play/9/8
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 8, in play
+    who_am_i = UsersToPlay.objects.get(id=my_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 635, in get
+    raise self.model.DoesNotExist(
+Game.models.UsersToPlay.DoesNotExist: UsersToPlay matching query does not exist.
+ERROR 2026-05-15 03:58:25,567 basehttp 12756 9668 "GET /play/9/8 HTTP/1.1" 500 76904
+INFO 2026-05-15 03:58:41,388 autoreload 12756 14600 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 03:58:42,113 autoreload 24268 21792 Watching for file changes with StatReloader
+INFO 2026-05-15 03:59:26,911 autoreload 24268 21792 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 03:59:27,688 autoreload 19064 17104 Watching for file changes with StatReloader
+INFO 2026-05-15 04:00:16,514 autoreload 19064 17104 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:00:17,193 autoreload 28100 17588 Watching for file changes with StatReloader
+INFO 2026-05-15 04:00:19,825 basehttp 28100 24964 "GET /play/9/8 HTTP/1.1" 200 5390
+INFO 2026-05-15 04:00:19,869 basehttp 28100 24964 "GET /static/assets/style.css HTTP/1.1" 304 0
+INFO 2026-05-15 04:00:19,872 basehttp 28100 20592 "GET /static/assets/javascript.js HTTP/1.1" 304 0
+INFO 2026-05-15 04:00:31,491 autoreload 28100 17588 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:00:32,199 autoreload 5392 4872 Watching for file changes with StatReloader
+INFO 2026-05-15 04:00:33,811 autoreload 5392 4872 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:00:34,723 autoreload 4940 14700 Watching for file changes with StatReloader
+INFO 2026-05-15 04:00:38,322 autoreload 4940 14700 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:00:38,973 autoreload 27316 24776 Watching for file changes with StatReloader
+ERROR 2026-05-15 04:00:40,698 log 27316 12928 Internal Server Error: /play/9/8
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 9, in play
+    print(who_am_i.user_id, who_am_i.user_name)
+                            ^^^^^^^^^^^^^
+AttributeError: 'UsersToPlay' object has no attribute 'user'
+ERROR 2026-05-15 04:00:40,700 basehttp 27316 12928 "GET /play/9/8 HTTP/1.1" 500 68014
+ERROR 2026-05-15 04:00:46,629 log 27316 12928 Internal Server Error: /play/9/8
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 9, in play
+    print(who_am_i.user_id, who_am_i.user_name)
+                            ^^^^^^^^^^^^^
+AttributeError: 'UsersToPlay' object has no attribute 'user'
+ERROR 2026-05-15 04:00:46,630 basehttp 27316 12928 "GET /play/9/8 HTTP/1.1" 500 68014
+INFO 2026-05-15 04:01:00,627 autoreload 27316 24776 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:01:01,316 autoreload 18356 15380 Watching for file changes with StatReloader
+INFO 2026-05-15 04:01:04,705 basehttp 18356 5004 "GET /play/9/8 HTTP/1.1" 200 5390
+INFO 2026-05-15 04:01:09,236 autoreload 18356 15380 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:01:09,857 autoreload 9776 18276 Watching for file changes with StatReloader
+INFO 2026-05-15 04:01:12,413 autoreload 9776 18276 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:01:13,075 autoreload 6160 29196 Watching for file changes with StatReloader
+INFO 2026-05-15 04:01:14,518 autoreload 6160 29196 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:01:15,180 autoreload 21428 18704 Watching for file changes with StatReloader
+INFO 2026-05-15 04:01:19,423 basehttp 21428 18136 "GET /play/9/8 HTTP/1.1" 200 5390
+INFO 2026-05-15 04:08:53,428 autoreload 21428 18704 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:08:54,454 autoreload 12276 25412 Watching for file changes with StatReloader
+INFO 2026-05-15 04:09:07,566 autoreload 12276 25412 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:09:08,247 autoreload 9368 17988 Watching for file changes with StatReloader
+INFO 2026-05-15 04:09:26,628 autoreload 9368 17988 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:09:27,386 autoreload 25304 21840 Watching for file changes with StatReloader
+INFO 2026-05-15 04:09:28,888 autoreload 25304 21840 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:09:29,619 autoreload 20844 20928 Watching for file changes with StatReloader
+INFO 2026-05-15 04:09:31,147 autoreload 20844 20928 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:09:31,947 autoreload 10516 24760 Watching for file changes with StatReloader
+INFO 2026-05-15 04:09:33,451 autoreload 10516 24760 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:09:34,114 autoreload 21836 8772 Watching for file changes with StatReloader
+INFO 2026-05-15 04:09:36,689 autoreload 21836 8772 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:09:37,384 autoreload 1416 25316 Watching for file changes with StatReloader
+INFO 2026-05-15 04:09:38,998 autoreload 1416 25316 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:09:39,748 autoreload 6988 1340 Watching for file changes with StatReloader
+INFO 2026-05-15 04:09:41,005 autoreload 6988 1340 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:09:41,670 autoreload 4624 18984 Watching for file changes with StatReloader
+INFO 2026-05-15 04:09:52,541 autoreload 4624 18984 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:09:53,211 autoreload 26024 14672 Watching for file changes with StatReloader
+INFO 2026-05-15 04:09:54,779 autoreload 26024 14672 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:09:55,561 autoreload 12908 5256 Watching for file changes with StatReloader
+INFO 2026-05-15 04:09:59,157 autoreload 12908 5256 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:09:59,956 autoreload 24400 2752 Watching for file changes with StatReloader
+INFO 2026-05-15 04:10:03,344 autoreload 24400 2752 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:10:04,039 autoreload 12656 17532 Watching for file changes with StatReloader
+INFO 2026-05-15 04:10:06,349 autoreload 12656 17532 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:10:07,024 autoreload 21044 14472 Watching for file changes with StatReloader
+INFO 2026-05-15 04:10:08,259 autoreload 21044 14472 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:10:08,948 autoreload 16180 12224 Watching for file changes with StatReloader
+INFO 2026-05-15 04:10:10,233 autoreload 16180 12224 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:10:10,892 autoreload 17564 10544 Watching for file changes with StatReloader
+INFO 2026-05-15 04:10:14,583 autoreload 17564 10544 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:10:15,252 autoreload 27968 2504 Watching for file changes with StatReloader
+INFO 2026-05-15 04:12:10,755 autoreload 22600 16164 Watching for file changes with StatReloader
+INFO 2026-05-15 04:13:11,244 basehttp 22600 22004 "GET /play/9/8 HTTP/1.1" 200 5376
+INFO 2026-05-15 04:13:11,287 basehttp 22600 22004 "GET /static/assets/style.css HTTP/1.1" 304 0
+INFO 2026-05-15 04:13:11,288 basehttp 22600 19500 "GET /static/assets/javascript.js HTTP/1.1" 304 0
+INFO 2026-05-15 04:13:12,215 basehttp 22600 19500 "GET /play/9/8 HTTP/1.1" 200 5376
+INFO 2026-05-15 04:13:12,865 basehttp 22600 19500 "GET /play/9/8 HTTP/1.1" 200 5376
+INFO 2026-05-15 04:13:13,431 basehttp 22600 19500 "GET /play/9/8 HTTP/1.1" 200 5376
+INFO 2026-05-15 04:13:33,351 basehttp 22600 19500 "GET /play/9/8 HTTP/1.1" 200 5394
+INFO 2026-05-15 04:13:34,805 basehttp 22600 19500 "GET /play/9/8 HTTP/1.1" 200 5394
+INFO 2026-05-15 04:13:35,329 basehttp 22600 19500 "GET /play/9/8 HTTP/1.1" 200 5394
+INFO 2026-05-15 04:13:35,842 basehttp 22600 19500 "GET /play/9/8 HTTP/1.1" 200 5394
+INFO 2026-05-15 04:13:45,330 autoreload 22600 16164 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:13:46,162 autoreload 17756 22560 Watching for file changes with StatReloader
+INFO 2026-05-15 04:13:48,288 basehttp 17756 20140 "GET /play/9/8 HTTP/1.1" 200 5395
+INFO 2026-05-15 04:13:49,090 basehttp 17756 20140 "GET /play/9/8 HTTP/1.1" 200 5395
+INFO 2026-05-15 04:13:49,668 basehttp 17756 20140 "GET /play/9/8 HTTP/1.1" 200 5395
+INFO 2026-05-15 04:13:57,394 basehttp 17756 20140 "GET /play/9/8 HTTP/1.1" 200 5395
+INFO 2026-05-15 04:13:58,145 basehttp 17756 20140 "GET /play/9/8 HTTP/1.1" 200 5402
+INFO 2026-05-15 04:16:35,364 autoreload 17756 22560 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:16:36,148 autoreload 4000 28408 Watching for file changes with StatReloader
+INFO 2026-05-15 04:16:37,667 autoreload 4000 28408 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:16:38,375 autoreload 6872 10140 Watching for file changes with StatReloader
+INFO 2026-05-15 04:16:40,883 autoreload 6872 10140 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:16:41,594 autoreload 14868 1636 Watching for file changes with StatReloader
+INFO 2026-05-15 04:16:48,412 autoreload 14868 1636 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:16:49,141 autoreload 22140 22904 Watching for file changes with StatReloader
+INFO 2026-05-15 04:16:50,618 autoreload 22140 22904 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:16:51,327 autoreload 15864 26008 Watching for file changes with StatReloader
+INFO 2026-05-15 04:16:52,602 autoreload 15864 26008 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:16:53,296 autoreload 4548 5496 Watching for file changes with StatReloader
+INFO 2026-05-15 04:16:55,597 autoreload 4548 5496 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:16:56,313 autoreload 13248 10272 Watching for file changes with StatReloader
+INFO 2026-05-15 04:16:57,582 autoreload 13248 10272 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:16:58,269 autoreload 6736 20544 Watching for file changes with StatReloader
+INFO 2026-05-15 04:17:00,568 autoreload 6736 20544 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:17:01,295 autoreload 12692 8688 Watching for file changes with StatReloader
+INFO 2026-05-15 04:17:05,675 autoreload 12692 8688 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:17:06,372 autoreload 6420 7084 Watching for file changes with StatReloader
+INFO 2026-05-15 04:17:08,631 autoreload 6420 7084 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:17:09,444 autoreload 884 21732 Watching for file changes with StatReloader
+INFO 2026-05-15 04:17:14,082 autoreload 884 21732 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:17:14,944 autoreload 7708 27988 Watching for file changes with StatReloader
+INFO 2026-05-15 04:17:16,176 autoreload 7708 27988 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:17:16,885 autoreload 19668 13604 Watching for file changes with StatReloader
+INFO 2026-05-15 04:17:23,499 autoreload 19668 13604 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:17:24,180 autoreload 528 8508 Watching for file changes with StatReloader
+INFO 2026-05-15 04:17:25,399 autoreload 528 8508 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:17:26,051 autoreload 10104 11620 Watching for file changes with StatReloader
+INFO 2026-05-15 04:17:32,399 autoreload 10104 11620 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:17:33,058 autoreload 18160 25632 Watching for file changes with StatReloader
+INFO 2026-05-15 04:18:10,543 autoreload 18160 25632 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:18:11,305 autoreload 20520 28916 Watching for file changes with StatReloader
+INFO 2026-05-15 04:18:35,177 autoreload 20520 28916 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:18:35,801 autoreload 14184 25256 Watching for file changes with StatReloader
+INFO 2026-05-15 04:18:50,454 autoreload 14184 25256 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:18:51,072 autoreload 17264 11364 Watching for file changes with StatReloader
+INFO 2026-05-15 04:18:53,412 autoreload 17264 11364 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:18:54,026 autoreload 25548 16636 Watching for file changes with StatReloader
+INFO 2026-05-15 04:18:58,331 autoreload 25548 16636 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:18:59,016 autoreload 24796 12480 Watching for file changes with StatReloader
+INFO 2026-05-15 04:19:00,237 autoreload 24796 12480 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:19:00,894 autoreload 28580 10320 Watching for file changes with StatReloader
+INFO 2026-05-15 04:19:03,148 autoreload 28580 10320 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:19:03,785 autoreload 11664 21788 Watching for file changes with StatReloader
+INFO 2026-05-15 04:19:12,237 autoreload 11664 21788 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:19:12,894 autoreload 15968 15176 Watching for file changes with StatReloader
+INFO 2026-05-15 04:19:15,148 autoreload 15968 15176 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:19:15,798 autoreload 15768 21512 Watching for file changes with StatReloader
+INFO 2026-05-15 04:19:17,050 autoreload 15768 21512 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:19:17,773 autoreload 15244 24360 Watching for file changes with StatReloader
+INFO 2026-05-15 04:19:27,242 autoreload 15244 24360 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:19:27,952 autoreload 25700 25744 Watching for file changes with StatReloader
+INFO 2026-05-15 04:19:30,430 autoreload 25700 25744 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:19:31,159 autoreload 27008 26980 Watching for file changes with StatReloader
+INFO 2026-05-15 04:19:35,728 autoreload 27008 26980 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:19:36,407 autoreload 19988 10668 Watching for file changes with StatReloader
+INFO 2026-05-15 04:19:55,491 autoreload 19988 10668 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:19:56,345 autoreload 22976 13516 Watching for file changes with StatReloader
+INFO 2026-05-15 04:19:58,826 autoreload 22976 13516 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:19:59,491 autoreload 20812 26684 Watching for file changes with StatReloader
+INFO 2026-05-15 04:20:01,943 autoreload 20812 26684 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:20:02,593 autoreload 17748 15620 Watching for file changes with StatReloader
+INFO 2026-05-15 04:20:14,371 autoreload 17748 15620 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:20:15,134 autoreload 552 23876 Watching for file changes with StatReloader
+INFO 2026-05-15 04:20:16,375 autoreload 552 23876 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:20:16,991 autoreload 22980 1080 Watching for file changes with StatReloader
+INFO 2026-05-15 04:20:23,446 autoreload 22980 1080 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:20:24,112 autoreload 7164 18500 Watching for file changes with StatReloader
+INFO 2026-05-15 04:20:26,373 autoreload 7164 18500 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:20:26,964 autoreload 25640 29512 Watching for file changes with StatReloader
+INFO 2026-05-15 04:20:31,335 autoreload 25640 29512 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:20:32,228 autoreload 26140 27864 Watching for file changes with StatReloader
+INFO 2026-05-15 04:20:45,985 autoreload 26140 27864 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:20:46,681 autoreload 2516 28436 Watching for file changes with StatReloader
+INFO 2026-05-15 04:20:50,055 autoreload 2516 28436 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:20:50,706 autoreload 20396 19628 Watching for file changes with StatReloader
+INFO 2026-05-15 04:21:03,475 autoreload 20396 19628 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:21:04,286 autoreload 11800 23116 Watching for file changes with StatReloader
+INFO 2026-05-15 04:21:05,563 autoreload 11800 23116 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:21:06,282 autoreload 8864 17420 Watching for file changes with StatReloader
+INFO 2026-05-15 04:21:09,905 autoreload 8864 17420 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:21:10,620 autoreload 11224 4764 Watching for file changes with StatReloader
+INFO 2026-05-15 04:21:28,169 autoreload 11224 4764 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 04:21:28,881 autoreload 19700 6152 Watching for file changes with StatReloader
+INFO 2026-05-15 04:21:33,466 autoreload 19700 6152 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 04:21:34,190 autoreload 19460 12972 Watching for file changes with StatReloader
+INFO 2026-05-15 04:21:35,780 autoreload 19460 12972 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 04:21:36,429 autoreload 18652 12832 Watching for file changes with StatReloader
+INFO 2026-05-15 04:21:37,850 autoreload 18652 12832 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 04:21:38,535 autoreload 21556 1096 Watching for file changes with StatReloader
+INFO 2026-05-15 04:21:40,053 autoreload 21556 1096 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 04:22:02,473 autoreload 17708 12432 Watching for file changes with StatReloader
+INFO 2026-05-15 04:22:10,215 autoreload 17708 12432 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\models.py changed, reloading.
+INFO 2026-05-15 04:22:10,922 autoreload 17740 14984 Watching for file changes with StatReloader
+INFO 2026-05-15 04:22:20,898 autoreload 17740 14984 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:22:21,629 autoreload 400 22576 Watching for file changes with StatReloader
+INFO 2026-05-15 04:22:24,966 autoreload 400 22576 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:22:25,621 autoreload 4920 23140 Watching for file changes with StatReloader
+INFO 2026-05-15 04:22:36,374 autoreload 4920 23140 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:22:37,072 autoreload 7476 5936 Watching for file changes with StatReloader
+INFO 2026-05-15 04:22:39,373 autoreload 7476 5936 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:22:40,102 autoreload 12988 23464 Watching for file changes with StatReloader
+INFO 2026-05-15 04:22:47,713 autoreload 12988 23464 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:22:48,367 autoreload 14100 4208 Watching for file changes with StatReloader
+INFO 2026-05-15 04:22:49,617 autoreload 14100 4208 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:22:50,293 autoreload 28140 29664 Watching for file changes with StatReloader
+INFO 2026-05-15 04:25:18,995 autoreload 25984 13568 Watching for file changes with StatReloader
+INFO 2026-05-15 04:25:35,962 autoreload 25984 13568 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:25:36,629 autoreload 6616 28000 Watching for file changes with StatReloader
+INFO 2026-05-15 04:27:14,007 autoreload 6616 28000 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:27:14,775 autoreload 17764 72 Watching for file changes with StatReloader
+INFO 2026-05-15 04:27:16,082 autoreload 17764 72 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:27:16,843 autoreload 9900 2604 Watching for file changes with StatReloader
+INFO 2026-05-15 04:27:25,587 autoreload 9900 2604 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:27:26,272 autoreload 23720 10060 Watching for file changes with StatReloader
+INFO 2026-05-15 04:27:45,950 autoreload 23720 10060 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:27:46,828 autoreload 2196 10560 Watching for file changes with StatReloader
+INFO 2026-05-15 04:27:50,392 autoreload 2196 10560 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:27:51,021 autoreload 16220 3436 Watching for file changes with StatReloader
+INFO 2026-05-15 04:27:53,619 autoreload 16220 3436 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:27:54,438 autoreload 26880 13104 Watching for file changes with StatReloader
+INFO 2026-05-15 04:28:18,176 autoreload 26880 13104 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:28:18,966 autoreload 29244 13524 Watching for file changes with StatReloader
+INFO 2026-05-15 04:28:29,953 autoreload 29244 13524 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:28:30,642 autoreload 10284 18248 Watching for file changes with StatReloader
+INFO 2026-05-15 04:28:34,226 autoreload 10284 18248 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:28:34,861 autoreload 5108 8620 Watching for file changes with StatReloader
+INFO 2026-05-15 04:31:07,335 autoreload 5108 8620 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\StarDot\urls.py changed, reloading.
+INFO 2026-05-15 04:31:08,066 autoreload 3212 1760 Watching for file changes with StatReloader
+INFO 2026-05-15 04:31:12,647 autoreload 3212 1760 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\StarDot\urls.py changed, reloading.
+INFO 2026-05-15 04:31:13,355 autoreload 2296 12276 Watching for file changes with StatReloader
+INFO 2026-05-15 04:31:18,997 autoreload 2296 12276 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\StarDot\urls.py changed, reloading.
+INFO 2026-05-15 04:31:19,619 autoreload 24464 17048 Watching for file changes with StatReloader
+INFO 2026-05-15 04:32:05,919 autoreload 24464 17048 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:32:06,774 autoreload 10268 12880 Watching for file changes with StatReloader
+INFO 2026-05-15 04:36:38,768 basehttp 10268 23012 "GET /admin HTTP/1.1" 301 0
+INFO 2026-05-15 04:36:38,787 basehttp 10268 11260 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-05-15 04:36:38,895 basehttp 10268 11260 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+INFO 2026-05-15 04:37:03,937 basehttp 10268 11260 "GET /play/9/8 HTTP/1.1" 200 5402
+ERROR 2026-05-15 04:39:18,326 log 10268 24372 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: API.create_play() missing 1 required positional argument: 'request'
+ERROR 2026-05-15 04:39:18,331 basehttp 10268 24372 "GET /create/play?user_id=9&my_number=9047 HTTP/1.1" 500 63331
+INFO 2026-05-15 04:42:16,359 autoreload 10268 12880 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:42:17,351 autoreload 6288 3916 Watching for file changes with StatReloader
+INFO 2026-05-15 04:42:19,195 autoreload 6288 3916 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:42:20,244 autoreload 29312 26704 Watching for file changes with StatReloader
+INFO 2026-05-15 04:42:23,994 autoreload 29312 26704 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:42:24,836 autoreload 25552 19292 Watching for file changes with StatReloader
+INFO 2026-05-15 04:42:26,380 autoreload 25552 19292 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:42:27,913 autoreload 14400 8252 Watching for file changes with StatReloader
+INFO 2026-05-15 04:42:32,675 autoreload 14400 8252 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\apis.py changed, reloading.
+INFO 2026-05-15 04:42:33,475 autoreload 7864 4688 Watching for file changes with StatReloader
+INFO 2026-05-15 04:42:35,200 autoreload 7864 4688 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\apis.py changed, reloading.
+INFO 2026-05-15 04:42:36,446 autoreload 13920 8692 Watching for file changes with StatReloader
+ERROR 2026-05-15 04:42:41,322 log 13920 12468 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 13, in create_play
+    data = json.loads(request.body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2026-05-15 04:42:41,325 basehttp 13920 12468 "GET /create/play?user_id=9&my_number=9047 HTTP/1.1" 500 79395
+INFO 2026-05-15 04:43:13,207 autoreload 13920 8692 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:43:14,452 autoreload 22884 8636 Watching for file changes with StatReloader
+ERROR 2026-05-15 04:43:20,493 log 22884 13524 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 13, in create_play
+    data = json.loads(request.body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2026-05-15 04:43:20,497 basehttp 22884 13524 "GET /create/play?user_id=9&my_number=9047 HTTP/1.1" 500 79416
+INFO 2026-05-15 04:43:32,271 autoreload 22884 8636 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:43:33,377 autoreload 14836 28808 Watching for file changes with StatReloader
+ERROR 2026-05-15 04:46:23,137 log 14836 23576 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 17, in create_play
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 545, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 291, in __set__
+    raise ValueError(
+ValueError: Cannot assign "9": "Play.user_id" must be a "UsersToPlay" instance.
+ERROR 2026-05-15 04:46:23,141 basehttp 14836 23576 "GET /create/play HTTP/1.1" 500 85712
+INFO 2026-05-15 04:46:46,759 autoreload 14836 28808 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:46:47,638 autoreload 21156 13744 Watching for file changes with StatReloader
+INFO 2026-05-15 04:46:49,384 autoreload 21156 13744 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:46:50,325 autoreload 4984 14372 Watching for file changes with StatReloader
+INFO 2026-05-15 04:46:51,939 autoreload 4984 14372 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:46:53,331 autoreload 8836 14044 Watching for file changes with StatReloader
+INFO 2026-05-15 04:46:54,786 autoreload 8836 14044 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:46:55,631 autoreload 19212 12104 Watching for file changes with StatReloader
+INFO 2026-05-15 04:46:58,260 autoreload 19212 12104 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:46:59,481 autoreload 6236 19076 Watching for file changes with StatReloader
+INFO 2026-05-15 04:47:02,125 autoreload 6236 19076 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:47:02,874 autoreload 6732 17520 Watching for file changes with StatReloader
+INFO 2026-05-15 04:47:05,597 autoreload 6732 17520 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:47:06,383 autoreload 6876 27084 Watching for file changes with StatReloader
+INFO 2026-05-15 04:47:07,761 autoreload 6876 27084 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:47:08,524 autoreload 868 23304 Watching for file changes with StatReloader
+ERROR 2026-05-15 04:47:17,228 log 868 21820 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 18, in create_play
+    Play.objects.create(
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 545, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 291, in __set__
+    raise ValueError(
+ValueError: Cannot assign "9": "Play.user_id" must be a "UsersToPlay" instance.
+ERROR 2026-05-15 04:47:17,238 basehttp 868 21820 "GET /create/play HTTP/1.1" 500 85821
+INFO 2026-05-15 04:47:30,097 autoreload 21376 12524 Watching for file changes with StatReloader
+ERROR 2026-05-15 04:47:32,918 log 21376 6492 Internal Server Error: /create/play
+Traceback (most recent call last):
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py", line 18, in create_play
+    Play.objects.create(
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 545, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\Abdelrahman\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 291, in __set__
+    raise ValueError(
+ValueError: Cannot assign "9": "Play.user_id" must be a "UsersToPlay" instance.
+ERROR 2026-05-15 04:47:32,921 basehttp 21376 6492 "GET /create/play HTTP/1.1" 500 85821
+INFO 2026-05-15 04:49:39,508 autoreload 21376 12524 C:\Users\Abdelrahman\Desktop\Django Projects\StarDot\Game\views.py changed, reloading.
+INFO 2026-05-15 04:49:40,685 autoreload 28892 21628 Watching for file changes with StatReloader
+INFO 2026-05-15 04:49:47,091 basehttp 28892 16892 "GET /create/play HTTP/1.1" 200 21
