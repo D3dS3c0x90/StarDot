@@ -6,7 +6,7 @@ class UsersToPlay(models.Model):
     user_name       = models.CharField(max_length=25)
     
 class Play(models.Model):
-    user_id         = models.ForeignKey(UsersToPlay, on_delete=models.CASCADE) 
+    user         = models.ForeignKey(UsersToPlay, on_delete=models.CASCADE) 
     my_number       = models.BigIntegerField(blank=False)
     win             = models.BooleanField(default=False)
     

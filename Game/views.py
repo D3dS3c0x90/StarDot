@@ -16,7 +16,7 @@ class API:
         my_number = data["my_number"]
         
         Play.objects.create(
-            user_id = UsersToPlay.objects.get(user_id=user_id),
+            user = UsersToPlay.objects.get(user_id=user_id),
             my_number = my_number
         )
         
