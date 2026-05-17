@@ -45,18 +45,17 @@ class API:
         # My friend number to get info (star, dot)
         friend_number = Play.objects.filter(hash=hash).exclude(user=user).first().my_number
         
+        # Store my guesses
+        Guess.objects.create(
+            guess_number = my_guess,
+            play = Play.objects.get(hash=hash, user_id=user_id)
+        )
+        
         return JsonResponse({
             "status": "success",
             "value": [user_id, my_guess, hash],
             "result": "wait",
         }, status=200)
-        # friend_number = play
-        
-        
-        guess = Guess.objects.create(
-            guess_number = my_guess,
-            play = play
-        )
 
 # Create your views here.
 def play(request, my_id, friend_id, hash):
