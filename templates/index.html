@@ -72,7 +72,8 @@
   </div>
 
   <!-- Error Modal -->
-   <div class="modal fade"
+   
+    <div class="modal fade"
      id="errorModal"
      tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
@@ -212,10 +213,37 @@
 
   <!-- Modal Script -->
   <script>
+    const userId = {{ me.user_id }};
+    const friendId = {{ friend.user_id }};
+    const hash = "{{ hash }}";
+
     // Show modal on page load
     document.addEventListener('DOMContentLoaded', function() {
       const numberModal = new bootstrap.Modal(document.getElementById('numberModal'));
-      numberModal.show();
+      const hide = {{hide}}
+      if(hide){
+        const my_number = {{my_number}}
+        console.log(my_number)
+
+        mySuggestions.push({
+            numbers: my_number.toString().split('').map(Number),
+            result: "Started"
+        });
+
+        friendSuggestions.push(
+          {
+            numbers: ['-', '-', '-', '-'],
+            result: "Started"
+          }
+        )
+
+        updateComparison();
+        // numberModal.hide();
+        initGame();
+      }else{
+
+        numberModal.show();
+      }
 
       // Clear button functionality
       document.getElementById('clearBtn').addEventListener('click', function() {
@@ -228,10 +256,9 @@
         .addEventListener('submit', async function(e) {
             e.preventDefault();
             const userNumber = document.getElementById('userNumber').value;
-            const userId = {{ me.user_id }};
             try {
                 const response = await fetch(
-                    `/create/play?user_id=${userId}&my_number=${userNumber}`
+                    `/create/play?user_id=${userId}&my_number=${userNumber}&hash=${hash}`
                 );
                 // SERVER ERROR
                 if (!response.ok) {
@@ -248,9 +275,8 @@
                     result: myResult
                 });
 
-                updateComparison();
+                updateComparison1stTime();
 
-                // mySuggestions => { numbers: [2, 5, 7, 9], result: 'wait' }
                 console.log(data);
                 numberModal.hide();
                 initGame();

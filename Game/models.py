@@ -6,8 +6,9 @@ class UsersToPlay(models.Model):
     user_name       = models.CharField(max_length=25)
     
 class Play(models.Model):
-    user         = models.ForeignKey(UsersToPlay, on_delete=models.CASCADE) 
+    user            = models.ForeignKey(UsersToPlay, on_delete=models.CASCADE) 
     my_number       = models.BigIntegerField(blank=False)
+    hash            = models.CharField(blank=True, max_length=10)
     win             = models.BooleanField(default=False)
     
 class Guess(models.Model):
