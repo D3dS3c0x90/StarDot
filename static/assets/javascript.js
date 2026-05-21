@@ -1,9 +1,9 @@
     let selectedNumbers = [];
-    let currentFriend = 'قلب حبوبي - زينب';
+    let currentFriend = 'صديق';
 
     const gameHistory = [
       { player: 'You', numbers: [2, 5, 7, 9], score: 850, result: 'win' },
-      { player: 'قلب حبوبي - زينب', numbers: [1, 4, 6, 8], score: 720, result: 'win' },
+      { player: 'صديق', numbers: [1, 4, 6, 8], score: 720, result: 'win' },
       ];
 
     const mySuggestions = [
