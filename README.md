@@ -59,8 +59,11 @@ The first player to get ⭐⭐⭐⭐ wins the match 🎉
 # 🧠 Game Rules
 
 1️⃣ Enter a secret 4-digit number
+
 2️⃣ Digits must not repeat
+
 3️⃣ Start guessing your opponent's number
+
 4️⃣ After every guess:
 
 * ⭐ Star = correct digit + correct position
