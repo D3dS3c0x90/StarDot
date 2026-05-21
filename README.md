@@ -40,8 +40,6 @@ The first player to get ⭐⭐⭐⭐ wins the match 🎉
 
 ✅ AJAX requests without page reload
 
-✅ Dynamic game rendering
-
 ✅ Real-time Stars & Dots calculations
 
 ✅ Secret number validation
