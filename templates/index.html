@@ -216,6 +216,16 @@
     const userId = {{ me.user_id }};
     const friendId = {{ friend.user_id }};
     const hash = "{{ hash }}";
+    const my_sug = JSON.parse('{{ my_sug|escapejs }}'); 
+    const friend_sug = JSON.parse('{{ friend_sug|escapejs }}'); 
+    const my_friend_win = {{friend_win}}
+    const my_win = {{my_win}}
+
+    const stars = JSON.parse('{{ stars|escapejs }}');
+    const dots = JSON.parse('{{ dots|escapejs }}');
+
+    const friend_stars = JSON.parse('{{ friend_stars|escapejs }}');
+    const friend_dots = JSON.parse('{{ friend_dots|escapejs }}');
 
     // Show modal on page load
     document.addEventListener('DOMContentLoaded', function() {
@@ -223,19 +233,32 @@
       const hide = {{hide}}
       if(hide){
         const my_number = {{my_number}}
-        console.log(my_number)
 
         mySuggestions.push({
             numbers: my_number.toString().split('').map(Number),
-            result: "Started"
+            result: "بدأ",
+            stars: stars !== undefined ? stars : 0,
+            dots: dots !== undefined ? stars : 0
         });
 
         friendSuggestions.push(
           {
             numbers: ['-', '-', '-', '-'],
-            result: "Started"
+            result: "رقم الصديق مبهم",
+            stars: 0,
+            dots: 0 
           }
         )
+
+        appendGuess( my_sug, friend_sug, stars, dots, friend_stars, friend_dots );
+
+        const statusMsg = document.getElementById('statusMessage');
+        if (my_friend_win === 0 && my_win === 1) {
+          statusMsg.innerHTML = `<div class="status success"><i class="ti ti-star"></i>تهانينا.. لقد فزت! 🎉</div>`;
+        }
+        else if (my_friend_win === 1 && my_win === 0) {
+          statusMsg.innerHTML = `<div class="status error"><i class="ti ti-x"></i>حظ سعيد المرة القادمة! 💪</div>`;
+        }
 
         updateComparison();
         // numberModal.hide();
@@ -267,12 +290,23 @@
                     );
                 }
                 const data = await response.json();
-                const myInsertedSuggestion = data.number.toString().split('').map(Number)
-                const myResult = data.result
+                const myInsertedSuggestion = data.number.toString().split('').map(Number);
+                const myResult = data.result;
+                const stars = data.stars;
+                const dots = data.dots;
 
                 mySuggestions.push({
                     numbers: myInsertedSuggestion,
-                    result: myResult
+                    result: myResult,
+                    stars: stars !== undefined ? stars : 0,
+                    dots: dots !== undefined ? stars : 0
+                });
+
+                friendSuggestions.push({
+                    numbers: ['-', '-', '-', '-'],
+                    result: "بدأ",
+                    stars: 0,
+                    dots: 0 
                 });
 
                 updateComparison1stTime();
@@ -295,6 +329,7 @@
 
   <!-- Game Script -->
   <script>
+    
     // Initialize game on page load (will be called after modal submission)
     // document.addEventListener('DOMContentLoaded', initGame);
   </script>

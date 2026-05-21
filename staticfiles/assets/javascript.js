@@ -7,14 +7,12 @@
       ];
 
     const mySuggestions = [
-      { numbers: [2, 5, 7, 9], result: 'win' },
+
     ];
 
-    const friendSuggestions = {
-      'قلب حبوبي - زينب': [
-        { numbers: [1, 4, 6, 8], result: 'win' },
-      ],
-    };
+    const friendSuggestions = [
+      
+    ];
 
     function initGame() {
       const grid = document.getElementById('numbersGrid');
@@ -36,12 +34,12 @@
         btn.className = 'friend-tab-btn' + (index === 0 ? ' active' : '');
         btn.textContent = friend;
         btn.onclick = () => selectFriend(friend);
-        friendTabs.appendChild(btn);
+        // friendTabs.appendChild(btn);
       });
       updateComparison();
     }
 
-    function updateComparison() {
+    function updateComparison1stTime() {
       const myCol = document.getElementById('mySuggestions');
       const friendCol = document.getElementById('friendSuggestions');
       const friendData = friendSuggestions[currentFriend];
@@ -52,18 +50,70 @@
             ${suggestion.numbers.map(n => `<span class="suggestion-num">${n}</span>`).join('')}
           </div>
           <div class="suggestion-meta">
-            <span class="suggestion-result ${suggestion.result}">${suggestion.result === 'win' ? '✓ Win' : '✗ Lost'}</span>
+            <span class="suggestion-result badge ${
+                suggestion.result === 'رقم الصديق مبهم'
+                ? 'bg-dark'
+                : suggestion.result === 'Started'
+                ? 'bg-danger'
+                : 'bg-success'
+                }">⭐ ${suggestion.stars} | 🔵 ${suggestion.dots} = ${suggestion.result}</span>
           </div>
         </div>
       `).join('');
 
-      friendCol.innerHTML = friendData.map(suggestion => `
+      friendCol.innerHTML = friendSuggestions.map(suggestion => `
+        <div class="suggestion-item-friend">
+          <div class="suggestion-numbers">
+            ${suggestion.numbers.map(n => `<span class="suggestion-num">${n}</span>`).join('')}
+          </div>
+          <div class="suggestion-meta">
+              <span class="suggestion-result badge ${
+                suggestion.result === 'رقم الصديق مبهم'
+                ? 'bg-dark'
+                : suggestion.result === 'Started'
+                ? 'bg-danger'
+                : 'bg-secondary'
+                }">:⭐ ${suggestion.stars} | 🔵 ${suggestion.dots} = ${suggestion.result} </span>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function updateComparison() {
+      const myCol = document.getElementById('friendSuggestions');
+      const friendCol = document.getElementById('mySuggestions');
+      const friendData = mySuggestions[currentFriend];
+
+      myCol.innerHTML = friendSuggestions.map(suggestion => `
+        <div class="suggestion-item-friend">
+          <div class="suggestion-numbers">
+            ${suggestion.numbers.map(n => `<span class="suggestion-num">${n}</span>`).join('')}
+          </div>
+          <div class="suggestion-meta">
+            <span class="suggestion-result badge ${
+                suggestion.result === 'رقم الصديق مبهم'
+                ? 'bg-dark'
+                : suggestion.result === 'Started'
+                ? 'bg-danger'
+                : 'bg-success'
+                }">⭐ ${suggestion.stars} | 🔵 ${suggestion.dots} = ${suggestion.result}</span>          
+          </div>
+        </div>
+      `).join('');
+
+      friendCol.innerHTML = mySuggestions.map(suggestion => `
         <div class="suggestion-item">
           <div class="suggestion-numbers">
             ${suggestion.numbers.map(n => `<span class="suggestion-num">${n}</span>`).join('')}
           </div>
           <div class="suggestion-meta">
-            <span class="suggestion-result ${suggestion.result}">${suggestion.result === 'win' ? '✓ Win' : '✗ Lost'}</span>
+            <span class="suggestion-result badge ${
+                suggestion.result === 'رقم الصديق مبهم'
+                ? 'bg-dark'
+                : suggestion.result === 'Started'
+                ? 'bg-danger'
+                : 'bg-secondary'
+                }">⭐ ${suggestion.stars} | 🔵 ${suggestion.dots} = ${suggestion.result}</span>          
           </div>
         </div>
       `).join('');
@@ -108,22 +158,50 @@
       updateDisplay();
     }
 
-    function submitGuess() {
-    //   const randomResult = Math.random() > 0.5 ? 'win' : 'lost';
-    //   const score = Math.floor(Math.random() * 400) + 600;
-    //   gameHistory.unshift({ player: 'You', numbers: [...selectedNumbers], score: score, result: randomResult });
-    //   mySuggestions.unshift({ numbers: [...selectedNumbers], result: randomResult });
-      
-    //   const statusMsg = document.getElementById('statusMessage');
-    //   if (randomResult === 'win') {
-    //     statusMsg.innerHTML = `<div class="status success"><i class="ti ti-star"></i>Congratulations! 🎉</div>`;
-    //   } else {
-    //     statusMsg.innerHTML = `<div class="status error"><i class="ti ti-x"></i>Better luck next! 💪</div>`;
-    //   }
-      
-      resetGame();
-      updateComparison();
-      updateHistoryView();
+    async function submitGuess() {
+      const guess = selectedNumbers.join('');
+      console.log(guess)
+      try {
+        const response = await fetch(
+            `/create/guess?guess=${selectedNumbers.join('')}&user_id=${userId}&hash=${hash}`
+        );
+        // SERVER ERROR
+        if (!response.ok) {
+            throw new Error(
+                `Server Error: ${response.status}`
+            );
+        }
+        const data = await response.json();
+        const randomResult = data.result;
+        const score = data.score;
+
+        gameHistory.push({
+            player: 'You',
+            numbers: [...selectedNumbers],
+            score: score,
+            result: randomResult
+        });
+
+        friendSuggestions.push({
+            numbers: [...selectedNumbers],
+            result: randomResult
+        });
+
+        // const statusMsg = document.getElementById('statusMessage');
+        // if (randomResult === 'win') {
+        //   statusMsg.innerHTML = `<div class="status success"><i class="ti ti-star"></i>Congratulations! 🎉</div>`;
+        // } else {
+        //   statusMsg.innerHTML = `<div class="status error"><i class="ti ti-x"></i>Better luck next! 💪</div>`;
+        // }
+
+        resetGame();
+        updateComparison();
+        updateHistoryView();
+      }
+      catch(error) {
+        console.log(error);
+      }
+
     }
 
     function switchTab(tabName, evt) {
@@ -131,6 +209,24 @@
       document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
       document.getElementById(tabName).classList.add('active');
       evt.target.classList.add('active');
+    }
+
+    function appendGuess(my_guess_list, friend_guess_list){
+
+      my_guess_list.forEach(function(number){
+          friendSuggestions.push({
+              numbers: number.toString().split('').map(Number),
+              result: "Wait"
+          });
+      });
+
+      friend_guess_list.forEach(function(number){
+          mySuggestions.push({
+              numbers: number.toString().split('').map(Number),
+              result: "Wait"
+          });
+
+      });
     }
 
     function updateHistoryView() {

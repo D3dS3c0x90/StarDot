@@ -13,5 +13,5 @@ class Play(models.Model):
     
 class Guess(models.Model):
     play            = models.ForeignKey(Play, on_delete=models.CASCADE)
-    guess_number    = models.BigIntegerField(blank=False)
+    guess_number    = models.CharField(blank=False, max_length=4)
     

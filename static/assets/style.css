@@ -7,9 +7,9 @@
     :root {
       --primary-color: #667eea;
       --secondary-color: #764ba2;
-      --success-color: #27500a;
+      --success-color: #62e207;
       --danger-color: #791f1f;
-      --info-color: #0c447c;
+      --info-color: #d1cf4e;
       --light-bg: #f0f4ff;
       --dark-text: #333;
       --border-color: #e0e0e0;
@@ -317,7 +317,16 @@
       border-radius: 10px;
       padding: 1rem;
       margin-bottom: 1rem;
-      border-left: 4px solid var(--primary-color);
+      border-left: 4px solid var(--success-color);
+      transition: all 0.2s;
+    }
+
+    .suggestion-item-friend {
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid var(--info-color);
       transition: all 0.2s;
     }
 
